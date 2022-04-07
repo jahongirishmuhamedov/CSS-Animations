@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a8a5a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.traffic {
+    background-color: black;
+    height: 550px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.light {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 200px 200px 200px 200px;
+    animation-duration: 30s;
+    background-color: white;
+    animation-iteration-count: infinite;
+    margin: 0.5rem 0;
+}
+
+.red {
+    animation-name: example;
+}
+
+.yellow {
+    animation-name: example2;
+}
+
+.green {
+    animation-name: example3;
+}
+
+@keyframes example {
+    0% {
+        background-color: red
+    }
+    50% {
+        background-color: red
+    }
+    50.1% {
+        background-color: white
+    }
+    100% {
+        background-color: white
+    }
+}
+
+@keyframes example2 {
+    0% {
+        background-color: white
+    }
+    50% {
+        background-color: white
+    }
+    50.1% {
+        background-color: yellow
+    }
+    66.6% {
+        background-color: yellow
+    }
+    66.7% {
+        background-color: white
+    }
+    100% {
+        background-color: white
+    }
+}
+
+@keyframes example3 {
+    0% {
+        background-color: white
+    }
+    66.6% {
+        background-color: white
+    }
+    66.7% {
+        background-color: green;
+    }
+    100% {
+        background-color: green;
+
+    }
+
+}
+

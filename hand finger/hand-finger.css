@@ -1,0 +1,277 @@
+body{
+    background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hand{
+    display: flex;
+    margin-top: 15rem;
+
+}
+
+
+.finger-box{
+    margin: 0.1rem;
+    background-color: white;
+    width: 45px;
+    position: relative;
+}
+
+.one{
+    height: 130px;
+    border-radius: 12px 12px 20px 20px;
+    animation: f1 1.6s infinite linear;
+    animation-delay: 0.0s;
+    margin-top: 2rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.two{
+    height: 150px;
+    border-radius: 12px 12px 20px 20px;
+    animation: f2 1.6s infinite linear;
+    animation-delay: 0.1s;
+    margin-top: 1.6rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+.three{
+    height: 165px;
+    border-radius: 12px 12px 20px 20px;
+    animation: f3 1.6s infinite linear;
+    animation-delay: 0.2s;
+    margin-top: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.four{
+    height: 140px;
+    border-radius: 12px 12px 20px 20px;
+    animation: f4 1.6s infinite linear  ;
+    animation-delay: 0.3s;
+    margin-top: 1.4rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.five{
+    height: 38px;
+    border-radius: 0 30px 90px 0;
+    animation: f5 1.6s infinite linear;
+    animation-delay: 0.3s;
+    position: static;
+    margin-top: 4rem;
+}
+.line-team{
+    display: block;
+    margin-top: 0.3rem;
+}
+
+.line-one{
+    width: 25px;
+    height: 3px;
+    background-color: deepskyblue;
+    border-radius: 15px;
+    margin: 0.3rem;
+    animation: l1 1.6s infinite linear;
+    animation-delay: 0.0s;
+}
+
+.big-line{
+    width: 30px;
+    height: 1px;
+    background-color: white;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 1;
+    animation: bl1 1.6s infinite;
+}
+
+.nail-1{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 10px 20px 20px;
+    background-color: deepskyblue;
+    position: absolute;
+    bottom: 5px;
+}
+
+.line-team2{
+    display: block;
+    margin-top: 0.4rem;
+}
+
+.line-two{
+    width: 25px;
+    height: 3px;
+    background-color: deepskyblue;
+    border-radius: 15px;
+    margin: 0.3rem;
+}
+
+.nail-2{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 10px 20px 20px;
+    background-color: deepskyblue;
+    position: absolute;
+    bottom: 5px;
+}
+
+.line-team3{
+    display: block;
+    margin-top: 0.4rem;
+}
+
+.line-three{
+    width: 25px;
+    height: 3px;
+    background-color: deepskyblue;
+    border-radius: 15px;
+    margin: 0.3rem;
+}
+
+.nail-3{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 10px 20px 20px;
+    background-color: deepskyblue;
+    position: absolute;
+    bottom: 5px;
+}
+
+.line-team4{
+    display: block;
+    margin-top: 0.3rem;
+}
+
+.line-four{
+    width: 25px;
+    height: 3px;
+    background-color: deepskyblue;
+    border-radius: 15px;
+    margin: 0.3rem;
+}
+
+.nail-4{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 10px 20px 20px;
+    background-color: deepskyblue;
+    position: absolute;
+    bottom: 5px;
+}
+
+.rounded-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: deepskyblue;
+    margin-left: 5px;
+}
+@keyframes f1 {
+    0%{
+        height: 130px;
+    }
+    20%{
+        height: 90px;
+    }
+    40%{
+        height: 90px;
+    }
+    60%{
+        height: 130px;
+    }
+}
+
+@keyframes f2 {
+    0%{
+        height: 150px;
+    }
+    20%{
+        height: 110px;
+    }
+    40%{
+        height: 110px;
+    }
+    60%{
+        height: 150px;
+    }
+}
+@keyframes f3 {
+    0%{
+        height: 165px;
+    }
+    20%{
+        height: 125px;
+    }
+    40%{
+        height: 125px;
+    }
+    60%{
+        height: 165px;
+    }
+}
+@keyframes f4 {
+    0%{
+        height: 140px;
+    }
+    20%{
+        height: 100px;
+    }
+    40%{
+        height: 100px;
+    }
+    60%{
+        height: 140px;
+    }
+}
+
+@keyframes f5 {
+    0%{
+        height: 45px;
+    }
+    20%{
+        height: 20px;
+    }
+    40%{
+        height: 20px;
+    }
+    60%{
+        height: 45px;
+    }
+}
+
+@keyframes bl1 {
+    0%{
+        height: 5px;
+    }
+    20%{
+        height: 0;
+    }
+    40%{
+        height: 0;
+    }
+    60%{
+        height: 5px;
+    }
+}
+
+
+
+
